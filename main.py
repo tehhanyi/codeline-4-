@@ -22,30 +22,43 @@ async def new_member_welcome(update: Update, context: ContextTypes.DEFAULT_TYPE)
             )
 
 async def find_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    telegram_chat_id = update.effective_chat.id
+    thread_id = update.message.message_thread_id
+
     if not context.args:
         await update.message.reply_text("Please enter a description after /find")
         return
 
     description = " ".join(context.args)
 
-    await update.message.reply_text("🔍 Searching messages... this might take a moment.")
+    await context.bot.send_message(
+            chat_id=telegram_chat_id,
+            text="Gathering chat history... this might take a moment.",
+            message_thread_id = thread_id
+            )
 
-    # (Step 1) Extract chat ID
-    telegram_chat_id = update.effective_chat.id
-
-    # (Step 2) Use Telethon to fetch messages
-    messages = await fetch_chat_history(telegram_chat_id)
+    #Use Telethon to fetch chat history
+    messages = await fetch_chat_history(description, telegram_chat_id)
     if not messages:
         await update.message.reply_text("No messages found in the chat.")
     else:
-        await update.message.reply_text(f"Gathered chat history, now searching for text description: \"{description}\"...")
-
-    # (Step 3) Use Qwen search (stub for now)
+        await context.bot.send_message(
+            chat_id=telegram_chat_id,
+            text=f'Gathered chat history!\n🔍 Searching for description "{description}"...',
+            message_thread_id = thread_id
+            )
+    
+    # Use Qwen search (stub for now)
     result = semantic_search(description, messages)
 
     if result:
-       await update.message.reply_text(f"💡 Closest match to your query:",reply_to_message_id=result["id"]
-)
+        timestamp = result.get("date")
+        preview = result["text"][:150]
+        
+        await update.message.reply_text(
+            f"💡 Closest match found from *{timestamp}*:\n\n\"{preview}...\"",
+            parse_mode="Markdown"
+        )
     else:
         await update.message.reply_text("No matching messages found.")
 
