@@ -9,6 +9,4 @@ def semantic_search(description, messages):
     
     # fallback: return first message
     if messages:
-        return messages[0]
-    else:
         return None

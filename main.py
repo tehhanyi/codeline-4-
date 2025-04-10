@@ -79,7 +79,7 @@ async def find_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 InlineKeyboardButton("🔄 Retry Search", callback_data="retry_search"),
                 InlineKeyboardButton("❓ Help", callback_data="help")]]))
     else:
-        await update.message.reply_text("No matching messages found.")
+        await update.message.reply_text("No matching messages found, please give a better description!")
 async def clear_cache(update: Update, context: ContextTypes.DEFAULT_TYPE):
     DOWNLOAD_DIR = "downloads"
     try:
