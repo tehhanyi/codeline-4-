@@ -1,10 +1,176 @@
-[video_1207683.mp4]
-
-[audio_1207682.mp4]
-
-might not be sleeping early tonight haha!
-
-[voice_1207680.oga]
-
-[photo_1207679.jpg]
-
+{'id': 280, 'text': 'gg actually not easy', 'date': '2025-04-10 15:43:11+00:00', 'sender_id': 6638738540}
+{'id': 279, 'text': 'i looks astronomical to me too', 'date': '2025-04-10 15:34:29+00:00', 'sender_id': 6638738540}
+{'id': 278, 'text': 'dont worry', 'date': '2025-04-10 15:34:24+00:00', 'sender_id': 6638738540}
+{'id': 277, 'text': 'yep im looking at the same thing as you rn Annabel', 'date': '2025-04-10 15:34:22+00:00', 'sender_id': 6638738540}
+{'id': 276, 'text': 'Sorry, so does this mean that you\'ll be working on the importing of data to the RAG application?\n\nI\'m still struggling with it; couldn\'t understand how to use the SDKs and APIs to upload the file and create a knowledge base 😓\n1. Create and publish RAG application without a knowledge base attached (?), but with other info like model used and system/application prompt\n2. Use API to upload file to Data Management: https://www.alibabacloud.com/help/en/model-studio/upload-documents-by-calling-api?spm=a2c63.p38356.help-menu-2400256.d_3_3_3.1a3a1ebcnaeUmT&scm=20140722.H_2834219._.OR_help-T_intl~en-V_1\n3. Use API to create a knowledge base (start at step 2): https://www.alibabacloud.com/help/en/model-studio/rag-knowledge-base/?spm=a2c63.p38356.help-menu-2400256.d_1_4_0.5dcb70f3YQZJXi&scm=20140722.H_2807740._.OR_help-T_intl~en-V_1#4e11c1e48bcfg\n4. Use API to call application, passing knowledge base ID through the "rag_options" param: https://www.alibabacloud.com/help/en/model-studio/call-application-through-api?spm=a2c63.p38356.help-menu-2400256.d_3_0_0.77c25815Ktt5vd&scm=20140722.H_2846133._.OR_help-T_intl~en-V_1 and https://www.alibabacloud.com/help/en/model-studio/application-calling-guide?spm=a2c63.p38356.0.i15#6bd8094de7e1e', 'date': '2025-04-10 15:30:10+00:00', 'sender_id': 1271275921}
+{'id': 275, 'text': 'Hmm i only indicated the llm model to be used and imported the datasets hanyi sent into model studio. I left the configurations as is.\n\nConfiguration id: eb7f85f980574f7a880310018eb6ea37', 'date': '2025-04-10 15:30:10+00:00', 'sender_id': 817148089}
+{'id': 263, 'text': 'ok wait ah', 'date': '2025-04-10 14:59:25+00:00', 'sender_id': 223577411}
+{'id': 262, 'text': 'if possible can voice record or type to explain abit', 'date': '2025-04-10 14:59:16+00:00', 'sender_id': 6638738540}
+{'id': 261, 'text': '@hvnyi how did you retrieve the message.txt again?', 'date': '2025-04-10 14:59:04+00:00', 'sender_id': 6638738540}
+{'id': 260, 'text': 'that could be helpful', 'date': '2025-04-10 14:55:39+00:00', 'sender_id': 6638738540}
+{'id': 259, 'text': 'maybe my message.txt can include group chat id at the top?', 'date': '2025-04-10 14:55:20+00:00', 'sender_id': 223577411}
+{'id': 258, 'text': 'just a thought, not sure how feasible', 'date': '2025-04-10 14:54:49+00:00', 'sender_id': 6638738540}
+{'id': 257, 'text': 'group id 1 is the girls, group id 2 is the boys', 'date': '2025-04-10 14:54:44+00:00', 'sender_id': 6638738540}
+{'id': 256, 'text': 'so group id', 'date': '2025-04-10 14:54:37+00:00', 'sender_id': 6638738540}
+{'id': 255, 'text': 'oh', 'date': '2025-04-10 14:54:32+00:00', 'sender_id': 223577411}
+{'id': 254, 'text': "that's what i have in mind", 'date': '2025-04-10 14:54:29+00:00', 'sender_id': 6638738540}
+{'id': 253, 'text': 'this sounds more feasible', 'date': '2025-04-10 14:54:27+00:00', 'sender_id': 223577411}
+{'id': 252, 'text': 'or the qwen model can distinguish, the different chat groups', 'date': '2025-04-10 14:54:25+00:00', 'sender_id': 6638738540}
+{'id': 251, 'text': 'multiple qwen models', 'date': '2025-04-10 14:54:00+00:00', 'sender_id': 6638738540}
+{'id': 250, 'text': 'or', 'date': '2025-04-10 14:53:56+00:00', 'sender_id': 6638738540}
+{'id': 249, 'text': 'either one group chat', 'date': '2025-04-10 14:53:56+00:00', 'sender_id': 6638738540}
+{'id': 248, 'text': 'ok to keep it simple, should we just have one groupchat to focus on', 'date': '2025-04-10 14:52:29+00:00', 'sender_id': 223577411}
+{'id': 247, 'text': 'oh my', 'date': '2025-04-10 14:52:10+00:00', 'sender_id': 223577411}
+{'id': 246, 'text': 'rmb the id', 'date': '2025-04-10 14:52:01+00:00', 'sender_id': 6638738540}
+{'id': 245, 'text': 'it may confuse them', 'date': '2025-04-10 14:51:57+00:00', 'sender_id': 6638738540}
+{'id': 244, 'text': 'superchat', 'date': '2025-04-10 14:51:54+00:00', 'sender_id': 223577411}
+{'id': 243, 'text': 'if both .txt file got sent to the same qwen bot', 'date': '2025-04-10 14:51:53+00:00', 'sender_id': 6638738540}
+{'id': 242, 'text': 'us boys got a chat', 'date': '2025-04-10 14:51:43+00:00', 'sender_id': 6638738540}
+{'id': 241, 'text': 'like your girls got a chat', 'date': '2025-04-10 14:51:40+00:00', 'sender_id': 6638738540}
+{'id': 240, 'text': "but imagine there's several different chatd", 'date': '2025-04-10 14:51:33+00:00', 'sender_id': 6638738540}
+{'id': 239, 'text': 'it is', 'date': '2025-04-10 14:51:24+00:00', 'sender_id': 6638738540}
+{'id': 238, 'text': 'idk how it works HAHAHAHA', 'date': '2025-04-10 14:41:03+00:00', 'sender_id': 223577411}
+{'id': 237, 'text': 'or', 'date': '2025-04-10 14:41:00+00:00', 'sender_id': 223577411}
+{'id': 236, 'text': 'isit just a api call', 'date': '2025-04-10 14:40:57+00:00', 'sender_id': 223577411}
+{'id': 235, 'text': 'on the practical side of things', 'date': '2025-04-10 14:40:47+00:00', 'sender_id': 6638738540}
+{'id': 234, 'text': 'not gonna be easy actually', 'date': '2025-04-10 14:40:44+00:00', 'sender_id': 6638738540}
+{'id': 233, 'text': 'message.txt to qwen model', 'date': '2025-04-10 14:40:32+00:00', 'sender_id': 6638738540}
+{'id': 232, 'text': 'sure', 'date': '2025-04-10 14:40:24+00:00', 'sender_id': 6638738540}
+{'id': 231, 'text': 'im gonna start doing 2-4 now, @ELZ22 you can help me with 1 🤓', 'date': '2025-04-10 14:38:09+00:00', 'sender_id': 223577411}
+{'id': 230, 'text': 'and very important need to test with an actual group chat', 'date': '2025-04-10 14:36:45+00:00', 'sender_id': 223577411}
+{'id': 229, 'text': 'okay in the meantime i think telebot side missing these stuff:\n1. api query to pass message.txt to qwen model\n2. message.txt to exclude telebot texts ✅\n3. make our telebot more appealing (using buttons, changing of logo and name etc.) ✅ \n4. all the data privacy measures i mentioned eariler (clearing memory cache and hashing of sender ID)\n\nif there is still time we can:\n- find a way to include media \n- new command to allow admin to set intervals of auto downloading of chat history so users don’t have to wait so long', 'date': '2025-04-10 14:35:38+00:00', 'sender_id': 223577411}
+{'id': 228, 'text': "Hmmm honestly I'm not too sure yet, I just got home, need to quickly look into our stuffs in a moment", 'date': '2025-04-10 14:12:16+00:00', 'sender_id': 6638738540}
+{'id': 227, 'text': 'By the way, are we still meeting tonight? And what time are we meeting tomorrow morning?', 'date': '2025-04-10 14:00:18+00:00', 'sender_id': 1271275921}
+{'id': 226, 'text': '@Woon_xuen Hi Woon Xuen, sorry for disturbing. Could you share what prompt you used for your RAG application just now?\n\nAlso, just checking, did you also edit the configuration sections (if so, what were they), or was it okay to leave them just as is?\n\nEdit: If possible, could you also share the Application ID of your RAG app?', 'date': '2025-04-10 13:59:50+00:00', 'sender_id': 1271275921}
+{'id': 225, 'text': 'Give it a shot, no worries', 'date': '2025-04-10 12:35:47+00:00', 'sender_id': 6638738540}
+{'id': 224, 'text': 'Thanks everyone for the photos and for all your hard work! 🙏🏻\n\nAlso, I didn’t contribute a single thing today. So, I’d like to try using the API to import the generated knowledge base (chat history) to the RAG application that Woon Xuen created and try to figure out how to call the application. Unless someone else is already working on it and there’s something else I should work on?', 'date': '2025-04-10 12:29:55+00:00', 'sender_id': 1271275921}
+{'id': 223, 'text': 'future implementation!', 'date': '2025-04-10 12:03:41+00:00', 'sender_id': 223577411}
+{'id': 222, 'text': 'not the most impressive for now', 'date': '2025-04-10 12:03:34+00:00', 'sender_id': 223577411}
+{'id': 221, 'text': 'technical wise', 'date': '2025-04-10 12:03:23+00:00', 'sender_id': 223577411}
+{'id': 220, 'text': 'creativity is there bah', 'date': '2025-04-10 12:03:21+00:00', 'sender_id': 223577411}
+{'id': 219, 'text': 'HAHAHAHAHA', 'date': '2025-04-10 12:03:00+00:00', 'sender_id': 223577411}
+{'id': 218, 'text': '[video_218.webm]', 'date': '2025-04-10 12:02:45+00:00', 'sender_id': 223577411}
+{'id': 217, 'text': '[photo_217.jpg]', 'date': '2025-04-10 11:42:31+00:00', 'sender_id': 6638738540}
+{'id': 216, 'text': '[photo_216.jpg]', 'date': '2025-04-10 11:42:31+00:00', 'sender_id': 6638738540}
+{'id': 215, 'text': '[photo_215.jpg]', 'date': '2025-04-10 11:42:31+00:00', 'sender_id': 6638738540}
+{'id': 214, 'text': '[photo_214.jpg]', 'date': '2025-04-10 11:42:31+00:00', 'sender_id': 6638738540}
+{'id': 213, 'text': '[photo_213.jpg]', 'date': '2025-04-10 11:42:31+00:00', 'sender_id': 6638738540}
+{'id': 212, 'text': '[photo_212.jpg]', 'date': '2025-04-10 11:42:31+00:00', 'sender_id': 6638738540}
+{'id': 211, 'text': '[photo_211.jpg]', 'date': '2025-04-10 11:42:31+00:00', 'sender_id': 6638738540}
+{'id': 210, 'text': '[photo_210.jpg]', 'date': '2025-04-10 11:42:31+00:00', 'sender_id': 6638738540}
+{'id': 209, 'text': '[photo_209.jpg]', 'date': '2025-04-10 11:42:31+00:00', 'sender_id': 6638738540}
+{'id': 208, 'text': '[photo_208.jpg]', 'date': '2025-04-10 11:42:31+00:00', 'sender_id': 6638738540}
+{'id': 207, 'text': '[photo_207.jpg]', 'date': '2025-04-10 11:42:31+00:00', 'sender_id': 6638738540}
+{'id': 206, 'text': '[photo_206.jpg]', 'date': '2025-04-10 11:42:31+00:00', 'sender_id': 6638738540}
+{'id': 205, 'text': 'U got the selfies?', 'date': '2025-04-10 11:27:43+00:00', 'sender_id': 817148089}
+{'id': 204, 'text': '[video_204.mp4]', 'date': '2025-04-10 11:26:38+00:00', 'sender_id': 6638738540}
+{'id': 203, 'text': '[video_203.mp4]', 'date': '2025-04-10 11:26:38+00:00', 'sender_id': 6638738540}
+{'id': 202, 'text': '[video_202.mp4]', 'date': '2025-04-10 11:26:38+00:00', 'sender_id': 6638738540}
+{'id': 201, 'text': '[video_201.mp4]', 'date': '2025-04-10 11:26:38+00:00', 'sender_id': 6638738540}
+{'id': 200, 'text': '[photo_200.jpg]', 'date': '2025-04-10 11:26:38+00:00', 'sender_id': 6638738540}
+{'id': 199, 'text': '[photo_199.jpg]', 'date': '2025-04-10 11:26:38+00:00', 'sender_id': 6638738540}
+{'id': 198, 'text': '[photo_198.jpg]', 'date': '2025-04-10 11:26:38+00:00', 'sender_id': 6638738540}
+{'id': 197, 'text': 'Ok tmrr we win crop her in', 'date': '2025-04-10 11:26:07+00:00', 'sender_id': 817148089}
+{'id': 196, 'text': '[photo_196.jpg]She taking photo first cause she cmi tmr', 'date': '2025-04-10 11:25:47+00:00', 'sender_id': 6638738540}
+{'id': 195, 'text': 'Special mention for le egg mayo sanwiches', 'date': '2025-04-10 11:24:56+00:00', 'sender_id': 817148089}
+{'id': 194, 'text': '[photo_194.jpg]', 'date': '2025-04-10 11:24:21+00:00', 'sender_id': 817148089}
+{'id': 193, 'text': '[photo_193.jpg]', 'date': '2025-04-10 11:24:21+00:00', 'sender_id': 817148089}
+{'id': 192, 'text': '[photo_192.jpg]', 'date': '2025-04-10 11:24:21+00:00', 'sender_id': 817148089}
+{'id': 191, 'text': 'slayyy', 'date': '2025-04-10 11:23:29+00:00', 'sender_id': 223577411}
+{'id': 190, 'text': 'Xiexieni for the photos', 'date': '2025-04-10 11:22:39+00:00', 'sender_id': 817148089}
+{'id': 189, 'text': 'Gurl the cupcakes so slay', 'date': '2025-04-10 11:22:36+00:00', 'sender_id': 817148089}
+{'id': 188, 'text': '[photo_188.jpg]', 'date': '2025-04-10 11:21:44+00:00', 'sender_id': 223577411}
+{'id': 187, 'text': '[photo_187.jpg]', 'date': '2025-04-10 11:21:44+00:00', 'sender_id': 223577411}
+{'id': 186, 'text': '[photo_186.jpg]', 'date': '2025-04-10 11:21:44+00:00', 'sender_id': 223577411}
+{'id': 185, 'text': '[photo_185.jpg]', 'date': '2025-04-10 11:21:44+00:00', 'sender_id': 223577411}
+{'id': 184, 'text': '[photo_184.jpg]', 'date': '2025-04-10 11:21:44+00:00', 'sender_id': 223577411}
+{'id': 183, 'text': '[photo_183.jpg]', 'date': '2025-04-10 11:21:44+00:00', 'sender_id': 223577411}
+{'id': 182, 'text': '[photo_182.jpg]', 'date': '2025-04-10 11:21:44+00:00', 'sender_id': 223577411}
+{'id': 181, 'text': '[photo_181.jpg]', 'date': '2025-04-10 11:21:44+00:00', 'sender_id': 223577411}
+{'id': 180, 'text': '[photo_180.jpg]', 'date': '2025-04-10 11:21:44+00:00', 'sender_id': 223577411}
+{'id': 179, 'text': 'oh yaaa', 'date': '2025-04-10 11:21:15+00:00', 'sender_id': 223577411}
+{'id': 178, 'text': 'Rmb send photos ahh @ELZ22 @hvnyi', 'date': '2025-04-10 11:21:05+00:00', 'sender_id': 817148089}
+{'id': 177, 'text': '[document_177.txt]', 'date': '2025-04-10 10:49:47+00:00', 'sender_id': 223577411}
+{'id': 176, 'text': '[document_176.txt]', 'date': '2025-04-10 10:33:05+00:00', 'sender_id': 223577411}
+{'id': 153, 'text': '/test@cod3linebot', 'date': '2025-04-10 10:03:16+00:00', 'sender_id': 223577411}
+{'id': 152, 'text': '🔍 Searching messages... this might take a moment.', 'date': '2025-04-10 10:03:06+00:00', 'sender_id': 7753451997}
+{'id': 150, 'text': '🔍 Searching messages... this might take a moment.', 'date': '2025-04-10 10:02:42+00:00', 'sender_id': 7753451997}
+{'id': 148, 'text': '🔍 Searching messages... this might take a moment.', 'date': '2025-04-10 09:54:34+00:00', 'sender_id': 7753451997}
+{'id': 146, 'text': 'Please enter a description after /find', 'date': '2025-04-10 09:54:27+00:00', 'sender_id': 7753451997}
+{'id': 144, 'text': 'Server is healthy and running!', 'date': '2025-04-10 09:54:20+00:00', 'sender_id': 7753451997}
+{'id': 143, 'text': '/test@RicococoBot', 'date': '2025-04-10 09:54:20+00:00', 'sender_id': 6638738540}
+{'id': 142, 'text': 'Server is healthy and running!', 'date': '2025-04-10 09:54:16+00:00', 'sender_id': 7753451997}
+{'id': 141, 'text': '/test@RicococoBot', 'date': '2025-04-10 09:54:15+00:00', 'sender_id': 6638738540}
+{'id': 140, 'text': 'Server is healthy and running!', 'date': '2025-04-10 09:53:56+00:00', 'sender_id': 7753451997}
+{'id': 139, 'text': 'Server is healthy and running!', 'date': '2025-04-10 09:53:56+00:00', 'sender_id': 7753451997}
+{'id': 138, 'text': '/test@RicococoBot', 'date': '2025-04-10 09:53:36+00:00', 'sender_id': 6638738540}
+{'id': 132, 'text': '/test@RicococoBot', 'date': '2025-04-10 09:53:10+00:00', 'sender_id': 6638738540}
+{'id': 128, 'text': '/test@cod3linebot', 'date': '2025-04-10 09:51:31+00:00', 'sender_id': 223577411}
+{'id': 126, 'text': '🔍 Searching messages... this might take a moment.', 'date': '2025-04-10 09:49:49+00:00', 'sender_id': 7753451997}
+{'id': 124, 'text': 'Server is healthy and running!', 'date': '2025-04-10 09:48:11+00:00', 'sender_id': 7753451997}
+{'id': 123, 'text': '/test@ricococobot', 'date': '2025-04-10 09:48:09+00:00', 'sender_id': 6638738540}
+{'id': 118, 'text': 'pip install telethon', 'date': '2025-04-10 09:35:22+00:00', 'sender_id': 223577411}
+{'id': 117, 'text': '```TELEBOT_TOKEN = "7732114068:AAFS8k56AKMIN8OhbZuvcpm9qst6dq6m0j8"\nTELEAPP_API_ID = "23686252"\nTELEAPP_API_HASH = "f438491faa5281fd97376a56e83fbddf"```', 'date': '2025-04-10 09:33:41+00:00', 'sender_id': 223577411}
+{'id': 112, 'text': 'Potentially useful link about RAG implementation: https://www.alibabacloud.com/blog/600876\n\n(Can check out LangChain for RAG?)', 'date': '2025-04-10 09:25:45+00:00', 'sender_id': 1271275921}
+{'id': 93, 'text': '/test@cod3linebot', 'date': '2025-04-10 09:09:36+00:00', 'sender_id': 6638738540}
+{'id': 92, 'text': '/test@cod3linebot', 'date': '2025-04-10 09:09:36+00:00', 'sender_id': 223577411}
+{'id': 90, 'text': '/test@CodeLine', 'date': '2025-04-10 09:09:09+00:00', 'sender_id': 223577411}
+{'id': 89, 'text': '/test@CodeLine', 'date': '2025-04-10 09:09:00+00:00', 'sender_id': 6638738540}
+{'id': 87, 'text': '/test', 'date': '2025-04-10 09:08:03+00:00', 'sender_id': 223577411}
+{'id': 86, 'text': '/test', 'date': '2025-04-10 09:07:57+00:00', 'sender_id': 223577411}
+{'id': 83, 'text': 'https://www.alibabacloud.com/help/en/model-studio/user-guide/first-api-call-to-qwen?spm=a2c63.p38356.help-menu-2400256.d_0_0_1.5b933fd9zJW5B7', 'date': '2025-04-10 08:59:04+00:00', 'sender_id': 6638738540}
+{'id': 82, 'text': '```TELEBOT_TOKEN = "7732114068:AAFS8k56AKMIN8OhbZuvcpm9qst6dq6m0j8"```', 'date': '2025-04-10 08:54:49+00:00', 'sender_id': 223577411}
+{'id': 81, 'text': 'Telegram app\napi_id: 23686252\napi_hash: f438491faa5281fd97376a56e83fbddf\nAvailable MTProto servers: 149.154.167.40:443\npublic keys:\n```\n-----BEGIN RSA PUBLIC KEY-----\nMIIBCgKCAQEAyMEdY1aR+sCR3ZSJrtztKTKqigvO/vBfqACJLZtS7QMgCGXJ6XIR\nyy7mx66W0/sOFa7/1mAZtEoIokDP3ShoqF4fVNb6XeqgQfaUHd8wJpDWHcR2OFwv\nplUUI1PLTktZ9uW2WE23b+ixNwJjJGwBDJPQEQFBE+vfmH0JP503wr5INS1poWg/\nj25sIWeYPHYeOrFp/eXaqhISP6G+q2IeTaWTXpwZj4LzXq5YOpk4bYEQ6mvRq7D1\naHWfYmlEGepfaYR8Q0YqvvhYtMte3ITnuSJs171+GDqpdKcSwHnd6FudwGO4pcCO\nj4WcDuXc2CTHgH8gFTNhp/Y8/SpDOhvn9QIDAQAB\n-----END RSA PUBLIC KEY-----```', 'date': '2025-04-10 08:53:59+00:00', 'sender_id': 223577411}
+{'id': 80, 'text': '[photo_80.jpg]', 'date': '2025-04-10 08:33:59+00:00', 'sender_id': 6638738540}
+{'id': 79, 'text': 'how about user data privacy?\nans:\n1. make it open source (✅, just it to make the .README file to be detailed and talk about data privacy legal stuff)\n2. hash sender ID 📌\n3. ensure only using runtime memory and never store in external dB 📌\n4. option for admin to set intervals of clearing cache data 📌\n\nwouldn’t it take a long time to process one query?\nans: option for gc admin in group chat to update the model every intervals (maybe every week) 📌…however this just makes it more convenient and neglects the data privacy side of things\n\nat the end of the day we can give disclaimer and options to the user: either\n1. make your query faster by allowing to keep data at model but neglect data privacy\n2. or clear memory everytime to protect user data but at the expense of a much longer query (if they don’t mind waiting)', 'date': '2025-04-10 08:31:05+00:00', 'sender_id': 223577411}
+{'id': 78, 'text': 'qwen models:\nQWEN2.5 - 1.8B, QWEN2.5 - 7B, QWEN2.5 - 14B', 'date': '2025-04-10 08:18:43+00:00', 'sender_id': 817148089}
+{'id': 77, 'text': '[photo_77.jpg]', 'date': '2025-04-10 07:27:48+00:00', 'sender_id': 6638738540}
+{'id': 76, 'text': '@GmailBot', 'date': '2025-04-10 07:26:55+00:00', 'sender_id': 6638738540}
+{'id': 75, 'text': '[photo_75.jpg]', 'date': '2025-04-10 07:26:34+00:00', 'sender_id': 6638738540}
+{'id': 74, 'text': '[photo_74.jpg]', 'date': '2025-04-10 07:26:19+00:00', 'sender_id': 6638738540}
+{'id': 73, 'text': '[photo_73.jpg]', 'date': '2025-04-10 07:26:09+00:00', 'sender_id': 6638738540}
+{'id': 72, 'text': '[photo_72.jpg]', 'date': '2025-04-10 07:25:58+00:00', 'sender_id': 6638738540}
+{'id': 71, 'text': '[photo_71.jpg]', 'date': '2025-04-10 07:25:48+00:00', 'sender_id': 6638738540}
+{'id': 70, 'text': '[photo_70.jpg]', 'date': '2025-04-10 07:25:39+00:00', 'sender_id': 6638738540}
+{'id': 69, 'text': 'this telebot is good to go! server is running now and we are ready to win Alibaba Cloud AI hackathon weeeeee', 'date': '2025-04-10 06:46:29+00:00', 'sender_id': 7753451997}
+{'id': 68, 'text': '/test@ricococobot', 'date': '2025-04-10 06:46:28+00:00', 'sender_id': 6638738540}
+{'id': 67, 'text': 'this telebot is good to go! server is running now and we are ready to win Alibaba Cloud AI hackathon weeeeee', 'date': '2025-04-10 06:46:08+00:00', 'sender_id': 7753451997}
+{'id': 66, 'text': '/test@ricococobot', 'date': '2025-04-10 06:46:07+00:00', 'sender_id': 6638738540}
+{'id': 65, 'text': 'this telebot is good to go! server is running now and we are ready to win Alibaba Cloud AI hackathon weeeeee', 'date': '2025-04-10 06:44:37+00:00', 'sender_id': 7753451997}
+{'id': 64, 'text': '/test@ricococobot', 'date': '2025-04-10 06:44:36+00:00', 'sender_id': 6638738540}
+{'id': 60, 'text': 'ola', 'date': '2025-04-10 06:43:24+00:00', 'sender_id': 6638738540}
+{'id': 57, 'text': '/test', 'date': '2025-04-10 06:40:49+00:00', 'sender_id': 223577411}
+{'id': 56, 'text': 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ4dzuSnaLIdLq832XoPV1+wn8kgjjEwT7p+8PUCPDma elz.work22@gmail.com', 'date': '2025-04-10 06:17:54+00:00', 'sender_id': 6638738540}
+{'id': 52, 'text': '/test', 'date': '2025-04-10 05:58:39+00:00', 'sender_id': 6638738540}
+{'id': 51, 'text': 'test', 'date': '2025-04-10 05:58:37+00:00', 'sender_id': 6638738540}
+{'id': 49, 'text': '/test', 'date': '2025-04-10 05:58:08+00:00', 'sender_id': 6638738540}
+{'id': 48, 'text': 'https://docs.python-telegram-bot.org/en/v21.9/telegram.chat.html\n\ncan look into this, part of the python library', 'date': '2025-04-10 05:55:25+00:00', 'sender_id': 6638738540}
+{'id': 47, 'text': 'gohwoonxuen@gmail.com', 'date': '2025-04-10 05:47:41+00:00', 'sender_id': 817148089}
+{'id': 46, 'text': 'GitHub username: Annabel03', 'date': '2025-04-10 05:47:31+00:00', 'sender_id': 1271275921}
+{'id': 45, 'text': '[media_45.jpg]https://github.com/tehhanyi/codeline-4-\n\ngithub repo for our project', 'date': '2025-04-10 05:46:51+00:00', 'sender_id': 223577411}
+{'id': 44, 'text': 'then this ^ will point to me some text or media', 'date': '2025-04-10 05:35:08+00:00', 'sender_id': 223577411}
+{'id': 41, 'text': '[document_41.bin]', 'date': '2025-04-10 05:32:56+00:00', 'sender_id': 223577411}
+{'id': 40, 'text': '[document_40.py]', 'date': '2025-04-10 05:32:56+00:00', 'sender_id': 223577411}
+{'id': 37, 'text': '/test', 'date': '2025-04-10 05:31:37+00:00', 'sender_id': None}
+{'id': 34, 'text': '[photo_34.jpg]', 'date': '2025-04-10 05:26:16+00:00', 'sender_id': 6638738540}
+{'id': 33, 'text': '[photo_33.jpg]', 'date': '2025-04-10 04:18:01+00:00', 'sender_id': 6638738540}
+{'id': 32, 'text': 'To-Do List\n1. Integrate ECS with Telegram bot first, this is one of the main key, to have a user interface\n\n2. Register a domain on Alibaba Cloud', 'date': '2025-04-10 04:01:07+00:00', 'sender_id': 6638738540}
+{'id': 31, 'text': 'my idea from this morning 😃😃😃', 'date': '2025-04-10 03:58:37+00:00', 'sender_id': 223577411}
+{'id': 30, 'text': 'sometimes gossip too much until cannot find receipt', 'date': '2025-04-10 03:58:24+00:00', 'sender_id': 223577411}
+{'id': 29, 'text': 'LOVES to gossip', 'date': '2025-04-10 03:58:24+00:00', 'sender_id': 223577411}
+{'id': 28, 'text': 'cause we girls', 'date': '2025-04-10 03:58:24+00:00', 'sender_id': 223577411}
+{'id': 27, 'text': 'have you ever in a convo (either private or in a group chat) you were trying to recall a topic\nbut you cant find the keywords that you use so you could not ctrl + f\n\n“i told you so” telebot\nyou trigger the telebot using some command then all i need to do is to put in some description im trying to find in a chat\ntelebot will reference some texts that may help with my description', 'date': '2025-04-10 03:58:24+00:00', 'sender_id': 223577411}
+{'id': 25, 'text': 'Yay', 'date': '2025-04-10 03:38:53+00:00', 'sender_id': 6638738540}
+{'id': 24, 'text': 'Registered as well', 'date': '2025-04-10 03:37:11+00:00', 'sender_id': 1271275921}
+{'id': 23, 'text': 'Registered', 'date': '2025-04-10 03:34:32+00:00', 'sender_id': 817148089}
+{'id': 22, 'text': '[photo_22.jpg]Team Name : CodeLine(4)', 'date': '2025-04-10 03:27:33+00:00', 'sender_id': 6638738540}
+{'id': 21, 'text': 'https://account.alibabacloud.com/login/login.htm?oauth_callback=https%3A%2F%2Fsurvey.alibabacloud.com%2Fuone%2Fsg%2Fsurvey%2FjPJtzIX4t', 'date': '2025-04-10 03:27:06+00:00', 'sender_id': 6638738540}
+{'id': 20, 'text': 'Hello woon xuen and annabel', 'date': '2025-04-10 03:26:45+00:00', 'sender_id': 6638738540}
+{'id': 17, 'text': 'Next player: Edmund (@zeroproofisme)', 'date': '2025-04-10 01:22:19+00:00', 'sender_id': 118169453}
+{'id': 16, 'text': 'Drawing 2 cards', 'date': '2025-04-10 01:22:18+00:00', 'sender_id': 6638738540}
+{'id': 15, 'text': 'Next player: Edmund (@ELZ22)', 'date': '2025-04-10 01:21:53+00:00', 'sender_id': 118169453}
+{'id': 14, 'text': '[document_14.webp]', 'date': '2025-04-10 01:21:52+00:00', 'sender_id': 1018628938}
+{'id': 13, 'text': 'First player: Edmund (@zeroproofisme)\nUse /close to stop people from joining the game.\nEnable multi-translations with /enable_translations', 'date': '2025-04-10 01:21:37+00:00', 'sender_id': 118169453}
+{'id': 12, 'text': '[document_12.webp]', 'date': '2025-04-10 01:21:37+00:00', 'sender_id': 118169453}
+{'id': 8, 'text': 'At least 2 players must /join the game before you can start it', 'date': '2025-04-10 01:20:06+00:00', 'sender_id': 118169453}
+{'id': 4, 'text': 'Created a new game! Join the game with /join and start the game with /start', 'date': '2025-04-10 01:19:29+00:00', 'sender_id': 118169453}
