@@ -12,10 +12,10 @@ api_hash = os.getenv("TELEAPP_API_HASH")
 # print(f"API ID: {api_id}")
 # print(f"API Hash: {api_hash}")
 
-# Creating e a session file 'user_session.session'
+# Creating a session file 'user_session.session'
 client = TelegramClient("user_session", api_id, api_hash)
 
-async def fetch_chat_history(chat_id: int, limit: int = 1000):
+async def fetch_chat_history(desc: str, chat_id: int, limit: int = 1000):
     messages = []
 
     async with client:
@@ -25,19 +25,19 @@ async def fetch_chat_history(chat_id: int, limit: int = 1000):
 
         async for msg in client.iter_messages(entity, limit=limit):
             content = ""
-
-            if msg.text:
-                content += msg.text
+            if msg.text and msg.text.strip() != f"/find {desc}":
+                if not msg.text.startswith("Gathered chat history!"):
+                    content += msg.text
             if msg.photo:
-                content += " [📸 Photo]"
+                content += " [Photo]"
             if msg.video:
-                content += " [🎞️ Video]"
+                content += " [Video]"
             if msg.voice or msg.audio:
-                content += " [🔊 Audio Message]"
+                content += " [Audio]"
             if msg.sticker:
-                content += " [💬 Sticker]"
+                content += " [Sticker]"
             if msg.reply_to_msg_id:
-                content += f" [↩️ reply to {msg.reply_to_msg_id}]"
+                content += f" [reply to {msg.reply_to_msg_id}]"
 
             if content:
                 messages.append({
