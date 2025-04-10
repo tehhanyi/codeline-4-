@@ -9,6 +9,7 @@ import pytz
 from datetime import datetime
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackQueryHandler
+import shutil
 
 load_dotenv()
 # Define the /test command
@@ -79,6 +80,17 @@ async def find_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 InlineKeyboardButton("❓ Help", callback_data="help")]]))
     else:
         await update.message.reply_text("No matching messages found.")
+async def clear_cache(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    DOWNLOAD_DIR = "downloads"
+    try:
+        if os.path.exists(DOWNLOAD_DIR):
+            shutil.rmtree(DOWNLOAD_DIR)
+            os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+        with open("message.txt", "w", encoding="utf-8") as f:
+            f.write("")  # Clear text file
+        await update.message.reply_text("🧹 Memory cleared. All stored messages and media has been removed!")
+    except Exception as e:
+        await update.message.reply_text(f"⚠️ Failed to clear memory: {e}")
 
 TELEBOT_TOKEN = os.getenv("TELEBOT_TOKEN")
 if not TELEBOT_TOKEN:
@@ -92,7 +104,9 @@ if __name__ == "__main__":
     app.add_handler(CommandHandler("test", test_command))
 
     app.add_handler(CommandHandler("find", find_command))
-    
+
+    app.add_handler(CommandHandler("clear", clear_cache))
+
     app.add_handler(CallbackQueryHandler(button_handler))
 
     print("🤖 Bot is running...")

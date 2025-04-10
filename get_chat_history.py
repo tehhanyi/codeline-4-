@@ -1,9 +1,9 @@
 # fetch_chat_history.py
 from telethon.tl.types import MessageMediaPhoto
 from telethon.sync import TelegramClient
-from telethon.tl.types import PeerChat
 import os
 from dotenv import load_dotenv
+import hashlib
 load_dotenv()
 
 
@@ -75,7 +75,7 @@ async def fetch_chat_history(desc: str, bot_id: int, chat_id: int, limit: int = 
             if msg.sender_id == bot_id:
                     continue #exlude bot messages
             else:
-                if msg.text and not msg.text.lower().startswith("/find"): #and not msg.text.startswith("Gathering chat history"):
+                if msg.text and not msg.text.lower().startswith("/find") and not msg.text.lower().startswith("/clear") and not msg.text.lower().startswith("/test"): #and not msg.text.startswith("Gathering chat history"):
                     content += msg.text.strip()
                 #elif msg.reply_to_msg_id: #and not msg.text.startswith("/find"):
                 #   content += f"[reply to {msg.reply_to_msg_id}] {msg.text}"
@@ -85,7 +85,7 @@ async def fetch_chat_history(desc: str, bot_id: int, chat_id: int, limit: int = 
                         "id": msg.id,
                         "text": content,
                         "date": str(msg.date),
-                        "sender_id": msg.sender_id,
+                        "sender_id": hashlib.sha256(str(msg.sender_id).encode()).hexdigest()[:10],
                         "media_file": media_file_path
                     })
 
