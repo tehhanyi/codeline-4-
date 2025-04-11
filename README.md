@@ -1,6 +1,3 @@
-# codeline-4-
-Project for Alibaba Cloud Singapore AI Hackathon 2025
-
 # 🧠 Codeline Recall – Your AI-Powered Chat Memory Bot
 
 Codeline Recall is a [smart Telegram bot](https://t.me/cod3linebot) that helps you **search through chat history like magic**.  
