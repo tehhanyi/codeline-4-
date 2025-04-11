@@ -1,6 +1,7 @@
 numpy
 python-dotenv
 python-telegram-bot
+pytz
 Telethon
 torch
 transformers
