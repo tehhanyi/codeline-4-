@@ -1,7 +1,4 @@
 python-dotenv
 python-telegram-bot
 Telethon
-pytz
-hashlib
-shutil
-datetime
+torch
