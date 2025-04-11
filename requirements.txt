@@ -1,4 +1,7 @@
+numpy
 python-dotenv
 python-telegram-bot
 Telethon
 torch
+transformers
+scikit-learn
